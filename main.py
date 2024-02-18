@@ -6,10 +6,10 @@ import notes
 
 
 def input_title():
-    return input("Введите заголовок заметки: ").title()
+    return input("Введите заголовок заметки: ")
 
 def input_body():
-    return input("Введите текст заметки: ").title()
+    return input("Введите текст заметки: ")
 
 def print_data():
     old_list = []
