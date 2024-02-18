@@ -21,7 +21,7 @@ def print_data():
         old_list.append(new_line)
 
     try:
-        old_list.sort(key=itemgetter(4))
+        old_list.sort(key=itemgetter(4), reverse=True)
 
         for num, line in enumerate(old_list, 1):
             new_st = ": ".join(line)
